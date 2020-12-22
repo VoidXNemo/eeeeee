@@ -247,6 +247,23 @@ Script2.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidXNemo/e/main/Noob%20Bender"))()
 end)
 
+Script3.Name = "Script3"
+Script3.Parent = ScriptsF
+Script3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Script3.BackgroundTransparency = 1.000
+Script3.BorderSizePixel = 0
+Script3.Position = UDim2.new(0, 0, 0.271493345, 0)
+Script3.Size = UDim2.new(0, 446, 0, 50)
+Script3.Font = Enum.Font.GothamBold
+Script3.Text = "Command X"
+Script3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Script3.TextScaled = true
+Script3.TextSize = 14.000
+Script3.TextWrapped = true
+Script3.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+end)
+
 Beta.Name = "Beta"
 Beta.Parent = Frame
 Beta.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
