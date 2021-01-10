@@ -23,6 +23,7 @@ local UIGridLayout = Instance.new("UIGridLayout")
 local Script1 = Instance.new("TextButton")
 local Script2 = Instance.new("TextButton")
 local Script3 = Instance.new("TextButton")
+local Script4 = Instance.new("TextButton")
 local Beta = Instance.new("TextLabel")
 local CreditsF = Instance.new("Frame")
 local Title_3 = Instance.new("TextLabel")
@@ -247,7 +248,7 @@ Script2.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidXNemo/e/main/Noob%20Bender"))()
 end)
 
-Script3.Name = "Script3"
+Script3.Name = "Script2"
 Script3.Parent = ScriptsF
 Script3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Script3.BackgroundTransparency = 1.000
@@ -255,12 +256,29 @@ Script3.BorderSizePixel = 0
 Script3.Position = UDim2.new(0, 0, 0.271493345, 0)
 Script3.Size = UDim2.new(0, 446, 0, 50)
 Script3.Font = Enum.Font.GothamBold
-Script3.Text = "Infinite Yeild"
+Script3.Text = "Noob Master"
 Script3.TextColor3 = Color3.fromRGB(255, 255, 255)
 Script3.TextScaled = true
 Script3.TextSize = 14.000
 Script3.TextWrapped = true
 Script3.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidXNemo/e/main/Meh%20Cock"))()
+end)
+
+Script4.Name = "Script3"
+Script4.Parent = ScriptsF
+Script4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Script4.BackgroundTransparency = 1.000
+Script4.BorderSizePixel = 0
+Script4.Position = UDim2.new(0, 0, 0.271493345, 0)
+Script4.Size = UDim2.new(0, 446, 0, 50)
+Script4.Font = Enum.Font.GothamBold
+Script4.Text = "Infinite Yeild"
+Script4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Script4.TextScaled = true
+Script4.TextSize = 14.000
+Script4.TextWrapped = true
+Script4.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
